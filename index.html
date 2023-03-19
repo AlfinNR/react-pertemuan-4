@@ -1,0 +1,71 @@
+<body>
+    <div id="root"></div>
+    <!-- Script React dan ReactDOM -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+    <script type="text/babel">
+        // membuat Componet
+        function Hello(props) {
+            return (
+                <div>
+                    <h1>Hai saya {props.name}</h1>
+                    <p>Saya jurusan {props.jurusan}</p>
+                </div>
+            );
+        }
+
+        function Header() {
+            return (
+                <div>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </div>
+            );
+        }
+
+        function Main() {
+            return (
+                <div>
+                    <Hello name="Alfin" jurusan="Tehnik Informatika" />
+                    <Hello name="Nur" jurusan="Tehnik Informatika" />
+                    <Hello name="Rahman" jurusan="Sistem Informatika" />
+                </div>
+            )
+        }
+
+        function Footer() {
+            return (
+                <div>
+                    <p>©Copyright Alfin made in abyss </p>
+                </div>
+            )
+        }
+
+        function App() {
+            return (
+                <div>
+                    <Header />
+                    <Main />
+                    <Footer />
+                </div>
+            );
+        }
+
+        //ambil div id root
+        const rootElement = document.getElementById("root");
+
+        //Buat root react
+        const root = ReactDOM.createRoot(rootElement);
+
+        //Render Component ke Root
+        root.render(<App />)
+
+    </script>
+
+</body>
+
+</html>
