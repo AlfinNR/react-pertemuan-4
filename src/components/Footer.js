@@ -1,7 +1,9 @@
+import './Footer.css';
+
 const Footer = () =>
 (
-    <div>
-        <p>@Copyright Alfin made in abyss </p>
+    <div className="footer-container">
+        <p>@Copyright Alfin Nur Rahman </p>
     </div>
 );
 
