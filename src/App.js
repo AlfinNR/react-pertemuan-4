@@ -1,15 +1,9 @@
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import Home from "./pages/Home";
 
-import './App.css';
-
-const App = () =>{
+const App = () => {
   return (
     <div>
-      <Header />
-      <Main />
-      <Footer />
+      <Home />
     </div>
   );
 }
