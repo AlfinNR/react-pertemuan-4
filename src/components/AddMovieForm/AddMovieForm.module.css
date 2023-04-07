@@ -1,0 +1,57 @@
+/* Small Screen */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image__container {
+    margin-bottom: 1rem;
+    margin-right: 5rem;
+}
+
+.form__container {
+    margin-bottom: 1rem;
+    margin-right: 5rem;
+}
+
+.add__movie__tittle {
+    color: #06D6A0;
+    margin-bottom: 1rem;
+    font-size: 2.44rem;
+}
+
+.input {
+    margin-bottom: 1rem;
+}
+
+.input__box {
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #06D6A0;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.input__label {
+    color: #64748B;
+    margin-bottom: 0.5rem;
+}
+
+.movie__image {
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.submit__button {
+    background-color: #06D6A0;
+    color: white;
+    font-size: 16px;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+}

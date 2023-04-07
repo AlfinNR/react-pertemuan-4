@@ -7,7 +7,7 @@ function Hero() {
                 <div className={styles.hero__left}>
                     <h2 className={styles.hero__tittle}>Spiderman</h2>
                     <h3 className={styles.hero__gendre}>
-                        Gendre : Horror, Comedy, Gore, Hilumination
+                        Gendre : Horror, Comedy, nice, Hilumination
                     </h3>
                     <p className={styles.hero__description}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.

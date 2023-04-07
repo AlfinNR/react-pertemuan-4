@@ -1,3 +1,4 @@
+import AddMovieForm from "../components/AddMovieForm/AddMovieForm";
 import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
 import Movies from "../components/Movies/Movies";
@@ -18,6 +19,7 @@ function Home() {
         <div>
             <Navbar />
             <Main />
+            <AddMovieForm />
             <Footer />
         </div>
     );
