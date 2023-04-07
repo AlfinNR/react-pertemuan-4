@@ -9,6 +9,7 @@ function Main() {
         <main>
             <Hero />
             <Movies />
+            <AddMovieForm />
         </main>
     );
 }
@@ -19,7 +20,6 @@ function Home() {
         <div>
             <Navbar />
             <Main />
-            <AddMovieForm />
             <Footer />
         </div>
     );
