@@ -7,6 +7,20 @@ function Movies() {
     //membuat variable movies
     const movies = data;
 
+    // buat fungsi tambah film
+    // dijalankan ketika tombol di klik
+    function addMovie() {
+        const movie = {
+            id: "8738291",
+            title: "poorman",
+            year: "2025",
+            type: "Movie",
+            poster: "https://picsum.photos/300/400"
+        };
+
+        movies.push(movie);
+    }
+
     return (
         <div className={style.container}>
             <section className={style.movies}>
@@ -24,9 +38,8 @@ function Movies() {
                         })
                     }
                 </div>
-
-                {/* duplicate only */}
-
+                {/** menambah event click */}
+                <button onClick={addMovie}>Add Movie</button>
             </section>
         </div>
     );
